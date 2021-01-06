@@ -1,0 +1,42 @@
+.verify {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.verify-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: fit-content;
+  width: 300px;
+  border-radius: 5px;
+}
+.verify-container button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 70%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.verify-container button:hover {
+  background: #cc9814;
+}
+.verify-container p {
+  margin: 5px;
+  font-weight: 200;
+}
+.verify-container input {
+  background-color: white;
+  margin: 10px;
+  height: 20px;
+}
+.verify-container h3 {
+  margin: 5px;
+}

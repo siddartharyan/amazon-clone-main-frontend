@@ -1,0 +1,36 @@
+.reset {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+.reset-container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgray;
+}
+.reset-container p {
+  margin: 20px;
+  font-weight: 200;
+}
+.reset-container input {
+  background-color: white;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 80%;
+}
+.reset-container button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 80%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #111;
+}

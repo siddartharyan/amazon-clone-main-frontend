@@ -1,0 +1,22 @@
+.button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  color: #111;
+}
+.img {
+  height: 180px;
+  width: 180px;
+  object-fit: contain;
+}
+.basket {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid ghostwhite;
+}
+.info {
+  padding-left: 20px;
+  color: black;
+}

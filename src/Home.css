@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+.amazon_image {
+  margin-top: 50px;
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -10px;
+}
+.home_row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
